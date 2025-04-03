@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACEF656-1718-4B6C-A809-D8FE2BC47809}|Loja.Data\\Loja.Data.csproj|c:\\users\\wwwca\\documents\\pessoal\\mba\\modulo 1\\projeto\\loja.data\\model\\vendedores\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACEF656-1718-4B6C-A809-D8FE2BC47809}|Loja.Data\\Loja.Data.csproj|solutionrelative:loja.data\\model\\vendedores\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACEF656-1718-4B6C-A809-D8FE2BC47809}|Loja.Data\\Loja.Data.csproj|c:\\users\\wwwca\\documents\\pessoal\\mba\\modulo 1\\projeto\\loja.data\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACEF656-1718-4B6C-A809-D8FE2BC47809}|Loja.Data\\Loja.Data.csproj|solutionrelative:loja.data\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D02B18-B524-4BE6-B2AB-2114DC70138E}|Loja.UI\\Loja.UI.csproj|c:\\users\\wwwca\\documents\\pessoal\\mba\\modulo 1\\projeto\\loja.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8D02B18-B524-4BE6-B2AB-2114DC70138E}|Loja.UI\\Loja.UI.csproj|solutionrelative:loja.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D02B18-B524-4BE6-B2AB-2114DC70138E}|Loja.UI\\Loja.UI.csproj|c:\\users\\wwwca\\documents\\pessoal\\mba\\modulo 1\\projeto\\loja.ui\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D02B18-B524-4BE6-B2AB-2114DC70138E}|Loja.UI\\Loja.UI.csproj|solutionrelative:loja.ui\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D02B18-B524-4BE6-B2AB-2114DC70138E}|Loja.UI\\Loja.UI.csproj|c:\\users\\wwwca\\documents\\pessoal\\mba\\modulo 1\\projeto\\loja.ui\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D02B18-B524-4BE6-B2AB-2114DC70138E}|Loja.UI\\Loja.UI.csproj|solutionrelative:loja.ui\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D02B18-B524-4BE6-B2AB-2114DC70138E}|Loja.UI\\Loja.UI.csproj|c:\\users\\wwwca\\documents\\pessoal\\mba\\modulo 1\\projeto\\loja.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D02B18-B524-4BE6-B2AB-2114DC70138E}|Loja.UI\\Loja.UI.csproj|solutionrelative:loja.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D02B18-B524-4BE6-B2AB-2114DC70138E}|Loja.UI\\Loja.UI.csproj|c:\\users\\wwwca\\documents\\pessoal\\mba\\modulo 1\\projeto\\loja.ui\\configurations\\dbmigrationhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D02B18-B524-4BE6-B2AB-2114DC70138E}|Loja.UI\\Loja.UI.csproj|solutionrelative:loja.ui\\configurations\\dbmigrationhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACEF656-1718-4B6C-A809-D8FE2BC47809}|Loja.Data\\Loja.Data.csproj|c:\\users\\wwwca\\documents\\pessoal\\mba\\modulo 1\\projeto\\loja.data\\model\\vendedores\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACEF656-1718-4B6C-A809-D8FE2BC47809}|Loja.Data\\Loja.Data.csproj|solutionrelative:loja.data\\model\\vendedores\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACEF656-1718-4B6C-A809-D8FE2BC47809}|Loja.Data\\Loja.Data.csproj|c:\\users\\wwwca\\documents\\pessoal\\mba\\modulo 1\\projeto\\loja.data\\model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACEF656-1718-4B6C-A809-D8FE2BC47809}|Loja.Data\\Loja.Data.csproj|solutionrelative:loja.data\\model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D02B18-B524-4BE6-B2AB-2114DC70138E}|Loja.UI\\Loja.UI.csproj|c:\\users\\wwwca\\documents\\pessoal\\mba\\modulo 1\\projeto\\loja.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D02B18-B524-4BE6-B2AB-2114DC70138E}|Loja.UI\\Loja.UI.csproj|solutionrelative:loja.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "Loja.UI\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "Loja.UI\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T23:57:05.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Loja.UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Loja.UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T23:43:26.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "Loja.UI\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "Loja.UI\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAQwJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T23:41:47.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Loja.UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Loja.UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T23:34:44.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.Data\\Model\\Vendedores\\Endereco.cs",
+              "RelativeDocumentMoniker": "Loja.Data\\Model\\Vendedores\\Endereco.cs",
+              "ToolTip": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.Data\\Model\\Vendedores\\Endereco.cs",
+              "RelativeToolTip": "Loja.Data\\Model\\Vendedores\\Endereco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T23:23:45.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\Program.cs",
+              "RelativeDocumentMoniker": "Loja.UI\\Program.cs",
+              "ToolTip": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\Program.cs",
+              "RelativeToolTip": "Loja.UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T23:20:29.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.Data\\Model\\Categoria.cs",
+              "RelativeDocumentMoniker": "Loja.Data\\Model\\Categoria.cs",
+              "ToolTip": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.Data\\Model\\Categoria.cs",
+              "RelativeToolTip": "Loja.Data\\Model\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T18:37:01.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.Data\\Model\\Produto.cs",
+              "RelativeDocumentMoniker": "Loja.Data\\Model\\Produto.cs",
+              "ToolTip": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.Data\\Model\\Produto.cs",
+              "RelativeToolTip": "Loja.Data\\Model\\Produto.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswCwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T18:07:19.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vendedor.cs",
+              "DocumentMoniker": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.Data\\Model\\Vendedores\\Vendedor.cs",
+              "RelativeDocumentMoniker": "Loja.Data\\Model\\Vendedores\\Vendedor.cs",
+              "ToolTip": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.Data\\Model\\Vendedores\\Vendedor.cs",
+              "RelativeToolTip": "Loja.Data\\Model\\Vendedores\\Vendedor.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:37:03.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbMigrationHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\Configurations\\DbMigrationHelpers.cs",
+              "RelativeDocumentMoniker": "Loja.UI\\Configurations\\DbMigrationHelpers.cs",
+              "ToolTip": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\Configurations\\DbMigrationHelpers.cs",
+              "RelativeToolTip": "Loja.UI\\Configurations\\DbMigrationHelpers.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:50:18.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
