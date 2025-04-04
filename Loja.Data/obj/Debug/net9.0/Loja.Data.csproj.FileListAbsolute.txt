@@ -10,3 +10,4 @@ C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.Data\obj\Debug\net9.0
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.Data\obj\Debug\net9.0\refint\Loja.Data.dll
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.Data\obj\Debug\net9.0\Loja.Data.pdb
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.Data\obj\Debug\net9.0\ref\Loja.Data.dll
+C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.Data\obj\Debug\net9.0\Loja.Data.sourcelink.json

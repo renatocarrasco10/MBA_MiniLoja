@@ -211,7 +211,6 @@ C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\obj\Debug\net9.0\c
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\obj\Debug\net9.0\compressed\tpfvww0hnx-b9sayid5wm.gz
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\obj\Debug\net9.0\compressed\3ayidr6bci-61n19gt1b8.gz
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\obj\Debug\net9.0\compressed\dcz2efd7af-xtxxf3hu2r.gz
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\obj\Debug\net9.0\compressed\5umkyo7k0b-bqjiyaj88i.gz
@@ -436,3 +435,5 @@ C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\bin\Debug\net9.0\r
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\obj\Debug\net9.0\Loja.UI.sourcelink.json
+C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\obj\Debug\net9.0\compressed\tpfvww0hnx-k34kk44y5d.gz

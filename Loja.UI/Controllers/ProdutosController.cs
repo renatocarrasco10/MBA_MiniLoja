@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Loja.Data.Context;
 using Loja.Data.Model;
+using Microsoft.AspNetCore.Authorization;
+using Loja.UI.Models;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Loja.UI.Controllers
 {
+
+    [Authorize]
     public class ProdutosController : Controller
     {
         private readonly DataDbContext _context;
@@ -19,14 +21,15 @@ namespace Loja.UI.Controllers
             _context = context;
         }
 
-        // GET: Produtos
         public async Task<IActionResult> Index()
-        {
-            var dataDbContext = _context.Produtos.Include(p => p.Categoria).Include(p => p.Vendedor);
+        { 
+            string? vendedorId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value; 
+
+            var dataDbContext = _context.Produtos.Include(p => p.Categoria).Include(p => p.Vendedor).Where(p => p.VendedorId == vendedorId);
             return View(await dataDbContext.ToListAsync());
         }
 
-        // GET: Produtos/Details/5
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -46,33 +49,34 @@ namespace Loja.UI.Controllers
             return View(produto);
         }
 
-        // GET: Produtos/Create
         public IActionResult Create()
         {
-            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Nome");
-            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Cpf");
+            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Descricao");
+            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Id");
             return View();
         }
 
-        // POST: Produtos/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Descricao,Preco,ImagemUrl,QuantidadeEstoque,Ativo,DataCadastro,CategoriaId,VendedorId")] Produto produto)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Descricao,ImagemUrl,Preco,QuantidadeEstoque,Ativo,CategoriaId, Imagem")] Produto produto)
         {
+ 
             if (ModelState.IsValid)
             {
+                produto.ImagemUrl = await UploadArquivoAsync(produto.Imagem);
+
+                produto.DataCadastro = DateTime.Now;
+                produto.VendedorId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
                 _context.Add(produto);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Nome", produto.CategoriaId);
-            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Cpf", produto.VendedorId);
+            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Descricao", produto.CategoriaId);
+            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Id", produto.VendedorId);
             return View(produto);
-        }
+        }     
 
-        // GET: Produtos/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -85,17 +89,14 @@ namespace Loja.UI.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Nome", produto.CategoriaId);
-            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Cpf", produto.VendedorId);
+            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Descricao", produto.CategoriaId);
+            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Id", produto.VendedorId);
             return View(produto);
         }
 
-        // POST: Produtos/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Descricao,Preco,ImagemUrl,QuantidadeEstoque,Ativo,DataCadastro,CategoriaId,VendedorId")] Produto produto)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Descricao,ImagemUrl,Preco,QuantidadeEstoque,Ativo,CategoriaId, Imagem")] Produto produto)
         {
             if (id != produto.Id)
             {
@@ -106,6 +107,11 @@ namespace Loja.UI.Controllers
             {
                 try
                 {
+                    produto.ImagemUrl = await UploadArquivoAsync(produto.Imagem);
+
+                    produto.DataCadastro = DateTime.Now;
+                    produto.VendedorId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
                     _context.Update(produto);
                     await _context.SaveChangesAsync();
                 }
@@ -122,12 +128,11 @@ namespace Loja.UI.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Nome", produto.CategoriaId);
-            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Cpf", produto.VendedorId);
+            ViewData["CategoriaId"] = new SelectList(_context.Categorias, "Id", "Descricao", produto.CategoriaId);
+            ViewData["VendedorId"] = new SelectList(_context.Vendedores, "Id", "Id", produto.VendedorId);
             return View(produto);
         }
 
-        // GET: Produtos/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -147,7 +152,6 @@ namespace Loja.UI.Controllers
             return View(produto);
         }
 
-        // POST: Produtos/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -165,6 +169,31 @@ namespace Loja.UI.Controllers
         private bool ProdutoExists(int id)
         {
             return _context.Produtos.Any(e => e.Id == id);
+        }
+
+        private async Task<string> UploadArquivoAsync(IFormFile? Imagem)
+        {
+            if (Imagem != null && Imagem.Length > 0)
+            {
+                // Define o caminho onde o arquivo será salvo
+                var caminhoPasta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
+                var caminhoArquivo = Path.Combine(caminhoPasta, Imagem.FileName);
+
+                // Cria a pasta caso não exista
+                if (!Directory.Exists(caminhoPasta))
+                {
+                    Directory.CreateDirectory(caminhoPasta);
+                }
+
+                // Salva o arquivo no servidor
+                using (var stream = new FileStream(caminhoArquivo, FileMode.Create))
+                {
+                    await Imagem.CopyToAsync(stream);
+                }
+                return "/uploads/" + Imagem.FileName;
+            }
+            return "";
+            
         }
     }
 }

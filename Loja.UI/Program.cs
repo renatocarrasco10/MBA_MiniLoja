@@ -2,6 +2,8 @@ using Loja.UI.Data;
 using Microsoft.AspNetCore.Identity;
 using Loja.UI.Configurations;
 using Loja.UI.Components;
+using Loja.Data.Repositories;
+using Loja.Data.Repositories.Interfaces;
 
 
 namespace Loja.UI
@@ -11,11 +13,15 @@ namespace Loja.UI
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            
 
             builder.AddDatabaseSelector();
 
+
             // Add services to the container.
-            
+
+            builder.Services.AddTransient<IProdutoRepository, ProdutoRepository>();
+
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
@@ -34,6 +40,8 @@ namespace Loja.UI
                 app.UseHsts();
             }
 
+            
+
             app.UseHttpsRedirection();
             app.UseRouting();
 
@@ -48,6 +56,8 @@ namespace Loja.UI
                .WithStaticAssets();
 
             app.UseDbMigrationHelper();
+
+            app.UseStaticFiles();
 
             app.Run();
         }

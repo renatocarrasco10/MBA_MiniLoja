@@ -1,0 +1,11 @@
+﻿@model Loja.Data.Model.Produto
+
+<div class="col-sm-4 col-md-4 col-lg-4">
+    <p><img src="@Model.ImagemUrl" class="img-fluid" style="width: 100px; height:auto;" /></p>
+    <h3>Preço: @Model.Preco.ToString("c")</h3>
+    <h4>
+        <a asp-controller="Produtos" asp-action="Details"
+           asp-route-Id="@Model.Id">@Model.Nome</a>
+    </h4>
+    <p>@Model.Descricao</p>
+</div>

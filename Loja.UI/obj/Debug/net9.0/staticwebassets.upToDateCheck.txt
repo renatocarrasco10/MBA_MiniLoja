@@ -123,3 +123,9 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\uploads\cursoAspNetCore.jpg
+wwwroot\uploads\cursoC.jpg
+wwwroot\uploads\Eva.jpg
+wwwroot\uploads\LivroBootstrap.jpg
+wwwroot\uploads\LivroCSS.jpg
+wwwroot\uploads\Mission Accomplished.png

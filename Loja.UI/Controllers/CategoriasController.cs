@@ -7,16 +7,21 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Loja.Data.Context;
 using Loja.Data.Model;
+using Microsoft.AspNetCore.Authorization;
+using Loja.Data.Repositories.Interfaces;
 
 namespace Loja.UI.Controllers
 {
+    [Authorize]
     public class CategoriasController : Controller
     {
         private readonly DataDbContext _context;
+        private readonly IProdutoRepository _produtoRepository;
 
-        public CategoriasController(DataDbContext context)
+        public CategoriasController(DataDbContext context, IProdutoRepository produtoRepository)
         {
             _context = context;
+            _produtoRepository = produtoRepository;
         }
 
         public async Task<IActionResult> Index()
@@ -24,7 +29,7 @@ namespace Loja.UI.Controllers
             return View(await _context.Categorias.ToListAsync());
         }
 
-        public async Task<IActionResult> Details(Guid? id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
@@ -48,11 +53,10 @@ namespace Loja.UI.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome")] Categoria categoria)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Descricao")] Categoria categoria)
         {
             if (ModelState.IsValid)
             {
-                categoria.Id = Guid.NewGuid();
                 _context.Add(categoria);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -60,7 +64,7 @@ namespace Loja.UI.Controllers
             return View(categoria);
         }
 
-        public async Task<IActionResult> Edit(Guid? id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
@@ -77,7 +81,7 @@ namespace Loja.UI.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("Id,Nome")] Categoria categoria)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Descricao")] Categoria categoria)
         {
             if (id != categoria.Id)
             {
@@ -107,7 +111,7 @@ namespace Loja.UI.Controllers
             return View(categoria);
         }
 
-        public async Task<IActionResult> Delete(Guid? id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
@@ -120,27 +124,39 @@ namespace Loja.UI.Controllers
             {
                 return NotFound();
             }
+            
 
             return View(categoria);
         }
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(Guid id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var categoria = await _context.Categorias.FindAsync(id);
             if (categoria != null)
             {
+                if (CategoriaExistsProdutos(id))
+                {
+                    ModelState.AddModelError("Id", "Não é possível excluir esta categoria, pois há produtos associados a ela.");
+                    return View(categoria);
+                }
                 _context.Categorias.Remove(categoria);
             }
+
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CategoriaExists(Guid id)
+        private bool CategoriaExists(int id)
         {
             return _context.Categorias.Any(e => e.Id == id);
+        }
+
+        private bool CategoriaExistsProdutos(int id)
+        { 
+            return _produtoRepository.GetProdutosByCategoriaId(id).Any();
         }
     }
 }

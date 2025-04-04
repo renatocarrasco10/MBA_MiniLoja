@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Loja.Data.Migrations
 {
     [DbContext(typeof(DataDbContext))]
-    [Migration("20250402232750_CargaInicial")]
-    partial class CargaInicial
+    [Migration("20250404012646_CargaInicial_v2")]
+    partial class CargaInicial_v2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -22,13 +22,18 @@ namespace Loja.Data.Migrations
 
             modelBuilder.Entity("Loja.Data.Model.Categoria", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasMaxLength(200)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasMaxLength(100)
+                        .HasMaxLength(80)
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -45,10 +50,10 @@ namespace Loja.Data.Migrations
                     b.Property<bool>("Ativo")
                         .HasColumnType("INTEGER");
 
-                    b.Property<Guid>("CategoriaId")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("CategoriaId")
+                        .HasColumnType("INTEGER");
 
-                    b.Property<DateTime>("DataCadastro")
+                    b.Property<DateTime?>("DataCadastro")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Descricao")
@@ -71,7 +76,7 @@ namespace Loja.Data.Migrations
                     b.Property<int>("QuantidadeEstoque")
                         .HasColumnType("INTEGER");
 
-                    b.Property<Guid>("VendedorId")
+                    b.Property<string>("VendedorId")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -83,77 +88,20 @@ namespace Loja.Data.Migrations
                     b.ToTable("Produtos");
                 });
 
-            modelBuilder.Entity("Loja.Data.Model.Vendedores.Endereco", b =>
+            modelBuilder.Entity("Loja.Data.Model.Vendedor", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Bairro")
-                        .IsRequired()
-                        .HasMaxLength(50)
+                    b.Property<string>("Id")
                         .HasColumnType("TEXT");
-
-                    b.Property<string>("Cep")
-                        .IsRequired()
-                        .HasMaxLength(9)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Cidade")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Complemento")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Estado")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Logradouro")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Numero")
-                        .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("TEXT");
-
-                    b.Property<Guid>("VendedorId")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("VendedorId")
-                        .IsUnique();
-
-                    b.ToTable("Endereco");
-                });
-
-            modelBuilder.Entity("Loja.Data.Model.Vendedores.Vendedor", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT");
-
-                    b.Property<bool>("Ativo")
-                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Cpf")
                         .IsRequired()
-                        .HasMaxLength(11)
+                        .HasMaxLength(14)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasMaxLength(80)
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("TipoVendedor")
-                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
@@ -168,24 +116,11 @@ namespace Loja.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Loja.Data.Model.Vendedores.Vendedor", "Vendedor")
+                    b.HasOne("Loja.Data.Model.Vendedor", "Vendedor")
                         .WithMany("Produtos")
-                        .HasForeignKey("VendedorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("VendedorId");
 
                     b.Navigation("Categoria");
-
-                    b.Navigation("Vendedor");
-                });
-
-            modelBuilder.Entity("Loja.Data.Model.Vendedores.Endereco", b =>
-                {
-                    b.HasOne("Loja.Data.Model.Vendedores.Vendedor", "Vendedor")
-                        .WithOne("Endereco")
-                        .HasForeignKey("Loja.Data.Model.Vendedores.Endereco", "VendedorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
 
                     b.Navigation("Vendedor");
                 });
@@ -195,10 +130,8 @@ namespace Loja.Data.Migrations
                     b.Navigation("Produtos");
                 });
 
-            modelBuilder.Entity("Loja.Data.Model.Vendedores.Vendedor", b =>
+            modelBuilder.Entity("Loja.Data.Model.Vendedor", b =>
                 {
-                    b.Navigation("Endereco");
-
                     b.Navigation("Produtos");
                 });
 #pragma warning restore 612, 618

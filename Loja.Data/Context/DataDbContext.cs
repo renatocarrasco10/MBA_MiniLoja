@@ -1,5 +1,4 @@
 ﻿using Loja.Data.Model;
-using Loja.Data.Model.Vendedores;
 using Microsoft.EntityFrameworkCore;
 
 

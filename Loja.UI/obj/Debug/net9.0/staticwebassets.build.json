@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j60TfgAZAAiLnX9w9aG28hE07GmNvT4Uf1EA6DJxOMM=",
+  "Hash": "qR6Rxkk7hoZbhJtYgXYcTTJdqSGkn+h0w9PLiUtaEbE=",
   "Source": "Loja.UI",
   "BasePath": "_content/Loja.UI",
   "Mode": "Default",
@@ -3482,12 +3482,12 @@
       "OriginalItemSpec": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\obj\\Debug\\net9.0\\compressed\\tpfvww0hnx-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\obj\\Debug\\net9.0\\compressed\\tpfvww0hnx-k34kk44y5d.gz",
       "SourceId": "Loja.UI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Loja.UI",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=k34kk44y5d}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3496,8 +3496,8 @@
       "RelatedAsset": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wf4wcyqcqt",
-      "Integrity": "fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=",
+      "Fingerprint": "hvfwsb4uns",
+      "Integrity": "XYAIuSZ3jCZI73WrXTkiG6IP4OLFVhoUUuu4+dMSJF4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\css\\site.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "k34kk44y5d",
+      "Integrity": "wDVjXYyUd51pzIdJhFWy30Quiycn/nK07L/f3koqjU4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -5349,170 +5349,135 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\cursoAspNetCore.jpg",
+      "SourceId": "Loja.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\",
+      "BasePath": "_content/Loja.UI",
+      "RelativePath": "uploads/cursoAspNetCore#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t7pu9lrydn",
+      "Integrity": "KSjg2BPg4s9WGRcs7w2l90sLT9cvxyOTtcBw8vDxpqQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cursoAspNetCore.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\cursoC.jpg",
+      "SourceId": "Loja.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\",
+      "BasePath": "_content/Loja.UI",
+      "RelativePath": "uploads/cursoC#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qdusbxwr9g",
+      "Integrity": "Mqim1hVTDqaw8UeIggJeilX7NsFm8F6xW7MpCDD/gr8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cursoC.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\Eva.jpg",
+      "SourceId": "Loja.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\",
+      "BasePath": "_content/Loja.UI",
+      "RelativePath": "uploads/Eva#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cplxnrsm6j",
+      "Integrity": "IO/1X9+iFlcsDcHhuB4jtyLN3Vcm/Q6/DbZU5XL3+os=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Eva.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\LivroBootstrap.jpg",
+      "SourceId": "Loja.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\",
+      "BasePath": "_content/Loja.UI",
+      "RelativePath": "uploads/LivroBootstrap#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k8ysjzydd9",
+      "Integrity": "rKRVE9YKodqrWxMyOerjM3qj4mZw/e19XJci66DOQRQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\LivroBootstrap.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\LivroCSS.jpg",
+      "SourceId": "Loja.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\",
+      "BasePath": "_content/Loja.UI",
+      "RelativePath": "uploads/LivroCSS#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gzaky5ot9u",
+      "Integrity": "nMoSvfo4E55gyGZw5FSPDWfWC1jX5wDZikumj9XaL6I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\LivroCSS.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\Mission Accomplished.png",
+      "SourceId": "Loja.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\",
+      "BasePath": "_content/Loja.UI",
+      "RelativePath": "uploads/Mission Accomplished#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "igggne8mu0",
+      "Integrity": "rtnBD4s0UM7CuhnPzcQPhCPrGukWyOqPJQ75Uz2sY6k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Mission Accomplished.png"
     }
   ],
   "Endpoints": [
-    {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\obj\\Debug\\net9.0\\compressed\\tpfvww0hnx-b9sayid5wm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003125000000"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 00:02:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 00:02:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\obj\\Debug\\net9.0\\compressed\\tpfvww0hnx-b9sayid5wm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 00:02:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
-        }
-      ]
-    },
     {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\wwwca\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.3\\staticwebassets\\css\\site.css",
@@ -5552,12 +5517,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\obj\\Debug\\net9.0\\compressed\\tpfvww0hnx-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\obj\\Debug\\net9.0\\compressed\\tpfvww0hnx-k34kk44y5d.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.002976190476"
         }
       ],
       "ResponseHeaders": [
@@ -5567,15 +5532,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "335"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"XYAIuSZ3jCZI73WrXTkiG6IP4OLFVhoUUuu4+dMSJF4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 00:02:07 GMT"
+          "Value": "Thu, 03 Apr 2025 14:42:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5595,13 +5560,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"wDVjXYyUd51pzIdJhFWy30Quiycn/nK07L/f3koqjU4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-wDVjXYyUd51pzIdJhFWy30Quiycn/nK07L/f3koqjU4="
         }
       ]
     },
@@ -5616,7 +5581,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "714"
         },
         {
           "Name": "Content-Type",
@@ -5624,11 +5589,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"wDVjXYyUd51pzIdJhFWy30Quiycn/nK07L/f3koqjU4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 00:02:07 GMT"
+          "Value": "Thu, 03 Apr 2025 14:42:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5638,13 +5603,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-wDVjXYyUd51pzIdJhFWy30Quiycn/nK07L/f3koqjU4="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\obj\\Debug\\net9.0\\compressed\\tpfvww0hnx-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\obj\\Debug\\net9.0\\compressed\\tpfvww0hnx-k34kk44y5d.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5653,7 +5618,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "335"
         },
         {
           "Name": "Content-Type",
@@ -5661,11 +5626,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"XYAIuSZ3jCZI73WrXTkiG6IP4OLFVhoUUuu4+dMSJF4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 00:02:07 GMT"
+          "Value": "Thu, 03 Apr 2025 14:42:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5683,7 +5648,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-XYAIuSZ3jCZI73WrXTkiG6IP4OLFVhoUUuu4+dMSJF4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.k34kk44y5d.css",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\obj\\Debug\\net9.0\\compressed\\tpfvww0hnx-k34kk44y5d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002976190476"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "335"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XYAIuSZ3jCZI73WrXTkiG6IP4OLFVhoUUuu4+dMSJF4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 14:42:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wDVjXYyUd51pzIdJhFWy30Quiycn/nK07L/f3koqjU4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k34kk44y5d"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wDVjXYyUd51pzIdJhFWy30Quiycn/nK07L/f3koqjU4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.k34kk44y5d.css",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wDVjXYyUd51pzIdJhFWy30Quiycn/nK07L/f3koqjU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 14:42:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k34kk44y5d"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wDVjXYyUd51pzIdJhFWy30Quiycn/nK07L/f3koqjU4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.k34kk44y5d.css.gz",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\obj\\Debug\\net9.0\\compressed\\tpfvww0hnx-k34kk44y5d.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XYAIuSZ3jCZI73WrXTkiG6IP4OLFVhoUUuu4+dMSJF4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 03 Apr 2025 14:42:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k34kk44y5d"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XYAIuSZ3jCZI73WrXTkiG6IP4OLFVhoUUuu4+dMSJF4="
         }
       ]
     },
@@ -34797,7 +34923,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:15:31 GMT"
+          "Value": "Fri, 04 Apr 2025 03:07:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34858,7 +34984,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:15:31 GMT"
+          "Value": "Fri, 04 Apr 2025 03:07:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34903,7 +35029,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:15:31 GMT"
+          "Value": "Fri, 04 Apr 2025 03:07:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34958,7 +35084,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:15:31 GMT"
+          "Value": "Fri, 04 Apr 2025 03:07:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35019,7 +35145,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:15:31 GMT"
+          "Value": "Fri, 04 Apr 2025 03:07:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35064,7 +35190,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:15:31 GMT"
+          "Value": "Fri, 04 Apr 2025 03:07:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35119,7 +35245,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:15:31 GMT"
+          "Value": "Fri, 04 Apr 2025 03:07:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35172,7 +35298,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:15:31 GMT"
+          "Value": "Fri, 04 Apr 2025 03:07:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35209,7 +35335,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:15:31 GMT"
+          "Value": "Fri, 04 Apr 2025 03:07:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35256,7 +35382,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:15:31 GMT"
+          "Value": "Fri, 04 Apr 2025 03:07:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35309,7 +35435,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:15:31 GMT"
+          "Value": "Fri, 04 Apr 2025 03:07:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35346,7 +35472,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:15:31 GMT"
+          "Value": "Fri, 04 Apr 2025 03:07:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35365,6 +35491,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-2RffF9gsXXgkR2NaVNRVVsP8SCiLo08G619CqdRxwO8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cursoAspNetCore.jpg",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\cursoAspNetCore.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KSjg2BPg4s9WGRcs7w2l90sLT9cvxyOTtcBw8vDxpqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 03:42:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KSjg2BPg4s9WGRcs7w2l90sLT9cvxyOTtcBw8vDxpqQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cursoAspNetCore.t7pu9lrydn.jpg",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\cursoAspNetCore.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KSjg2BPg4s9WGRcs7w2l90sLT9cvxyOTtcBw8vDxpqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 03:42:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t7pu9lrydn"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/cursoAspNetCore.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KSjg2BPg4s9WGRcs7w2l90sLT9cvxyOTtcBw8vDxpqQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cursoC.jpg",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\cursoC.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mqim1hVTDqaw8UeIggJeilX7NsFm8F6xW7MpCDD/gr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 23:08:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mqim1hVTDqaw8UeIggJeilX7NsFm8F6xW7MpCDD/gr8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cursoC.qdusbxwr9g.jpg",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\cursoC.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mqim1hVTDqaw8UeIggJeilX7NsFm8F6xW7MpCDD/gr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 23:08:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qdusbxwr9g"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/cursoC.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mqim1hVTDqaw8UeIggJeilX7NsFm8F6xW7MpCDD/gr8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Eva.cplxnrsm6j.jpg",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\Eva.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IO/1X9+iFlcsDcHhuB4jtyLN3Vcm/Q6/DbZU5XL3+os=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 01:43:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cplxnrsm6j"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Eva.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IO/1X9+iFlcsDcHhuB4jtyLN3Vcm/Q6/DbZU5XL3+os="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Eva.jpg",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\Eva.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IO/1X9+iFlcsDcHhuB4jtyLN3Vcm/Q6/DbZU5XL3+os=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 01:43:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IO/1X9+iFlcsDcHhuB4jtyLN3Vcm/Q6/DbZU5XL3+os="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/LivroBootstrap.jpg",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\LivroBootstrap.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rKRVE9YKodqrWxMyOerjM3qj4mZw/e19XJci66DOQRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 23:03:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rKRVE9YKodqrWxMyOerjM3qj4mZw/e19XJci66DOQRQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/LivroBootstrap.k8ysjzydd9.jpg",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\LivroBootstrap.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rKRVE9YKodqrWxMyOerjM3qj4mZw/e19XJci66DOQRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 23:03:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k8ysjzydd9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/LivroBootstrap.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rKRVE9YKodqrWxMyOerjM3qj4mZw/e19XJci66DOQRQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/LivroCSS.gzaky5ot9u.jpg",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\LivroCSS.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "374245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nMoSvfo4E55gyGZw5FSPDWfWC1jX5wDZikumj9XaL6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 23:01:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gzaky5ot9u"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/LivroCSS.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nMoSvfo4E55gyGZw5FSPDWfWC1jX5wDZikumj9XaL6I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/LivroCSS.jpg",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\LivroCSS.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "374245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nMoSvfo4E55gyGZw5FSPDWfWC1jX5wDZikumj9XaL6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 23:01:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nMoSvfo4E55gyGZw5FSPDWfWC1jX5wDZikumj9XaL6I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Mission Accomplished.igggne8mu0.png",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\Mission Accomplished.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "327061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rtnBD4s0UM7CuhnPzcQPhCPrGukWyOqPJQ75Uz2sY6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 01:29:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "igggne8mu0"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Mission Accomplished.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rtnBD4s0UM7CuhnPzcQPhCPrGukWyOqPJQ75Uz2sY6k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Mission Accomplished.png",
+      "AssetFile": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\Mission Accomplished.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "327061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rtnBD4s0UM7CuhnPzcQPhCPrGukWyOqPJQ75Uz2sY6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 01:29:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rtnBD4s0UM7CuhnPzcQPhCPrGukWyOqPJQ75Uz2sY6k="
         }
       ]
     }

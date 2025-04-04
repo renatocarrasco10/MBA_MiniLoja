@@ -1,7 +1,6 @@
 ﻿
 using Loja.Data.Context;
 using Loja.Data.Model;
-using Loja.Data.Model.Vendedores;
 using Loja.UI.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -44,9 +43,7 @@ namespace Loja.UI.Configurations
         private static async Task EnsureSeedProducts(DataDbContext context, ApplicationDbContext contextId)
         {
 
-            var idVendedor = Guid.NewGuid();
-            var idCategoriaLivros = Guid.NewGuid();
-            var idCategoriaCursos = Guid.NewGuid();
+            var idVendedor = Guid.NewGuid().ToString();
 
             if (!context.Vendedores.Any())
             {
@@ -56,19 +53,6 @@ namespace Loja.UI.Configurations
                     Id = idVendedor,
                     Nome = "Vendedor Teste",
                     Cpf = "49445522389",
-                    TipoVendedor = TipoVendedor.PessoaFisica,
-                    Ativo = true,
-                    Endereco = new Endereco()
-                    {
-                        Id = 1,
-                        Logradouro = "Rua Teste",
-                        Numero = "123",
-                        Complemento = "Complemento",
-                        Bairro = "Teste",
-                        Cep = "03180-000",
-                        Cidade = "São Paulo",
-                        Estado = "SP"
-                    }
                 });
 
                 await context.SaveChangesAsync();
@@ -79,14 +63,16 @@ namespace Loja.UI.Configurations
 
                 await context.Categorias.AddAsync(new Categoria()
                 {
-                    Id = idCategoriaLivros,
-                    Nome = "Livros"
+                    Id = 1,
+                    Nome = "Livros",
+                    Descricao = "Livros Didáticos"
                 });
 
                 await context.Categorias.AddAsync(new Categoria()
                 {
-                    Id = idCategoriaCursos,
-                    Nome = "Cursos"
+                    Id = 2,
+                    Nome = "Cursos",
+                    Descricao = "Cursos DEVXPERT FULL STACK .NET"
                 });
             }
 
@@ -98,11 +84,11 @@ namespace Loja.UI.Configurations
                     Nome = "Livro CSS",
                     Descricao = "A criação de Layout CSS sempre foi uma tarefa trabalhosa, mas agora os profissionais têm uma ferramenta poderosa ao seu alcance",
                     Preco = 95,
-                    ImagemUrl = "",
+                    ImagemUrl = "/uploads/LivroCSS.jpg",
                     QuantidadeEstoque = 10,
                     Ativo = true,
                     DataCadastro = DateTime.Now,
-                    CategoriaId = idCategoriaLivros,
+                    CategoriaId = 1,
                     VendedorId = idVendedor
 
                 });
@@ -112,11 +98,11 @@ namespace Loja.UI.Configurations
                     Nome = "Livro Bootstrap",
                     Descricao = "Bootstrap é a escolha mais popular entre os desenvolvedores para construir sites e aplicativos modernos e responsivos",
                     Preco = 64,
-                    ImagemUrl = "",
+                    ImagemUrl = "/uploads/LivroBootstrap.jpg",
                     QuantidadeEstoque = 23,
                     Ativo = true,
                     DataCadastro = DateTime.Now,
-                    CategoriaId = idCategoriaLivros,
+                    CategoriaId = 1,
                     VendedorId = idVendedor
                 });
 
@@ -125,11 +111,11 @@ namespace Loja.UI.Configurations
                     Nome = "Curso Fundamentos do C#",
                     Descricao = "Vá do 0 ao avançado em C# com esse curso",
                     Preco = 190,
-                    ImagemUrl = "",
+                    ImagemUrl = "/uploads/cursoC.jpg",
                     QuantidadeEstoque = 90,
                     Ativo = true,
                     DataCadastro = DateTime.Now,
-                    CategoriaId = idCategoriaCursos,
+                    CategoriaId = 2,
                     VendedorId = idVendedor
                 });
 
@@ -138,11 +124,11 @@ namespace Loja.UI.Configurations
                     Nome = "Iniciando com ASP.NET Core",
                     Descricao = "Tudo o que você precisa sabar para iniciar no mundo de ASP.NET Core",
                     Preco = 190,
-                    ImagemUrl = "",
+                    ImagemUrl = "/uploads/cursoAspNetCore.jpg",
                     QuantidadeEstoque = 90,
                     Ativo = true,
                     DataCadastro = DateTime.Now,
-                    CategoriaId = idCategoriaCursos,
+                    CategoriaId = 2,
                     VendedorId = idVendedor
                 });
 
@@ -155,7 +141,7 @@ namespace Loja.UI.Configurations
 
                 await contextId.Users.AddAsync(new IdentityUser
                 {
-                    Id = Guid.NewGuid().ToString(),
+                    Id = idVendedor,
                     UserName = "teste@teste.com",
                     NormalizedUserName = "TESTE@TESTE.COM",
                     Email = "teste@teste.com",
