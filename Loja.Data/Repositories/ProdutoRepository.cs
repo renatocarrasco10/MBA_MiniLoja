@@ -34,7 +34,7 @@ namespace Loja.Data.Repositories
         public IEnumerable<Produto> GetProdutosByCategoriaId(int categoriaId)
         {
             IEnumerable<Produto>? produtos = _context.Produtos.Where(p => p.CategoriaId == categoriaId);
-            return produtos;
+            return  produtos;
         }
 
 

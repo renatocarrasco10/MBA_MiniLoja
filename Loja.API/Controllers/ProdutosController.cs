@@ -1,24 +1,30 @@
 ﻿using Loja.Data.Context;
 using Loja.Data.Model;
+using Loja.Data.Repositories;
+using Loja.Data.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 
 namespace Loja.API.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/produtos")]
     public class ProdutosController : ControllerBase
     {
         private readonly DataDbContext _dbContext;
+        private readonly IProdutoRepository _produtoRepository;
 
-        public ProdutosController(DataDbContext context)
+        public ProdutosController(DataDbContext context, IProdutoRepository produtoRepository)
         {
             _dbContext = context;
+            _produtoRepository = produtoRepository;
         }
 
-        
 
+        [AllowAnonymous]
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -30,6 +36,19 @@ namespace Loja.API.Controllers
             return await _dbContext.Produtos.ToListAsync();
         }
 
+        [AllowAnonymous]
+        [HttpGet("byCategoria/{idCategoria:int}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
+        public ActionResult<IEnumerable<Produto>> GetProdutosbyCategoria(int idCategoria)
+        {
+            if (_produtoRepository.GetProdutosByCategoriaId(idCategoria) == null) return NotFound();
+
+            return _produtoRepository.GetProdutosByCategoriaId(idCategoria).ToList();
+        }
+
+        [AllowAnonymous]
         [HttpGet("{id:int}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]

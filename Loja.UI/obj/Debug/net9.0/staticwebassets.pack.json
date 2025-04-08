@@ -257,20 +257,12 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Id": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\Eva.jpg",
-      "PackagePath": "staticwebassets\\uploads\\Eva.jpg"
-    },
-    {
       "Id": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\LivroBootstrap.jpg",
       "PackagePath": "staticwebassets\\uploads\\LivroBootstrap.jpg"
     },
     {
       "Id": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\LivroCSS.jpg",
       "PackagePath": "staticwebassets\\uploads\\LivroCSS.jpg"
-    },
-    {
-      "Id": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\Mission Accomplished.png",
-      "PackagePath": "staticwebassets\\uploads\\Mission Accomplished.png"
     },
     {
       "Id": "C:\\Users\\wwwca\\Documents\\Pessoal\\MBA\\Modulo 1\\Projeto\\Loja.UI\\wwwroot\\uploads\\cursoAspNetCore.jpg",
