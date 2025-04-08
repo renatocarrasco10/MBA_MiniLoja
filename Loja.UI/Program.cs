@@ -4,6 +4,7 @@ using Loja.UI.Configurations;
 using Loja.UI.Components;
 using Loja.Data.Repositories;
 using Loja.Data.Repositories.Interfaces;
+using System.Globalization;
 
 
 namespace Loja.UI
@@ -40,7 +41,11 @@ namespace Loja.UI
                 app.UseHsts();
             }
 
-            
+            var cultureInfo = new CultureInfo("pt-BR");
+
+            CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+            CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
+
 
             app.UseHttpsRedirection();
             app.UseRouting();

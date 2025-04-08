@@ -437,3 +437,7 @@ C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\bin\Debug\net9.0\z
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\obj\Debug\net9.0\Loja.UI.sourcelink.json
 C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\obj\Debug\net9.0\compressed\tpfvww0hnx-k34kk44y5d.gz
+C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\wwwca\Documents\Pessoal\MBA\Modulo 1\Projeto\Loja.UI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

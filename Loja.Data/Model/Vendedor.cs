@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Loja.Data.Model
 {
@@ -17,6 +18,7 @@ namespace Loja.Data.Model
         public string? Cpf { get; set; }
 
         /* EF Relations */
+        [JsonIgnore]
         public IEnumerable<Produto>? Produtos { get; set; }
     }
 }

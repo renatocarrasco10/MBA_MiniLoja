@@ -27,12 +27,12 @@ namespace Loja.Data.Model
         [Required(ErrorMessage = "Informe o {0}")]
         [Display(Name = "Preço")]
         [Column(TypeName = "decimal(10,2)")]
-        [Range(0.01, 99999.99, ErrorMessage = "O {0} deve estar entre {1} e {2}")]
+        [Range(0.01, int.MaxValue, ErrorMessage = "O {0} deve estar entre {1} e {2}")]
         public decimal Preco { get; set; }
        
         [Required(ErrorMessage = "A {0} deve ser informada")]
         [Display(Name = "Qtd. Estoque")]
-        [Range(0, 99999, ErrorMessage = "O {0} deve estar entre {1} e {2}")]
+        [Range(0, int.MaxValue, ErrorMessage = "O {0} deve estar entre {1} e {2}")]
         public int QuantidadeEstoque { get; set; }
 
         public bool Ativo { get; set; }
