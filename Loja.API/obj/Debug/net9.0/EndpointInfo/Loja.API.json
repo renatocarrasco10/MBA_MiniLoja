@@ -1379,8 +1379,7 @@
           },
           "dataCadastro": {
             "type": "string",
-            "format": "date-time",
-            "nullable": true
+            "format": "date-time"
           },
           "categoriaId": {
             "type": "integer",
