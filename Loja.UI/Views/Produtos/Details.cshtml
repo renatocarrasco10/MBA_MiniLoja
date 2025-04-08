@@ -1,13 +1,12 @@
 ﻿@model Loja.Data.Model.Produto
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = $"Detalhes do produto {Model.Nome}";
 }
 
-<h1>Details</h1>
+<h1>@ViewData["Title"]</h1>
 
 <div>
-    <h4>Produto</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -56,7 +55,7 @@
             @Html.DisplayNameFor(model => model.DataCadastro)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.DataCadastro)
+            @Model.DataCadastro.ToString("dd/MM/yyyy")
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Vendedor)
@@ -67,6 +66,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Editar" class="btn btn-info" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index" class="btn btn-warning">Voltar</a>
 </div>

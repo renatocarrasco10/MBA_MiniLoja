@@ -36,8 +36,9 @@ namespace Loja.Data.Model
         public int QuantidadeEstoque { get; set; }
 
         public bool Ativo { get; set; }
-            
-        public DateTime? DataCadastro { get; set; }
+
+        [Display(Name = "Data de Cadastro")]
+        public DateTime DataCadastro { get; set; }
 
         [Required(ErrorMessage = "A {0} deve ser informada")]
         [Display(Name = "Categoria")]

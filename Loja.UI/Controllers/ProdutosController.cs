@@ -5,8 +5,6 @@ using Microsoft.EntityFrameworkCore;
 using Loja.Data.Context;
 using Loja.Data.Model;
 using Microsoft.AspNetCore.Authorization;
-using Loja.UI.Models;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Loja.UI.Controllers
 {
