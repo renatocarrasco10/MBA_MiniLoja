@@ -2,10 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Loja.UI/DemoBancoMiniLoja.db
-/Loja.UI/DemoBancoMiniLoja.db-shm
-/Loja.UI/DemoBancoMiniLoja.db-wal
+
 /Loja.Data/DemoBancoMiniLoja.db
 /Loja.Data/DemoBancoMiniLoja.db-shm
 /Loja.Data/DemoBancoMiniLoja.db-wal
-/.vs/Loja
+/.vs/
